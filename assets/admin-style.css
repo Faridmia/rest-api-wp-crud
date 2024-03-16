@@ -1,0 +1,66 @@
+.crud-api-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.book-section {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: calc(100% - 24px); /* Adjust width based on container padding */
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.list-group {
+    padding-left: 0;
+    margin-top: 20px; /* Add margin between form and list */
+}
+
+.list-group-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+}
+
+.list-group-item-data {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+#books .list-group-item-data {
+    margin-top: 20px;
+}
+
+.book-section > h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list-group-item-data input[type="text"] {
+    margin-bottom: 20px;
+}
